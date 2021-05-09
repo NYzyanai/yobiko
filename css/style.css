@@ -304,12 +304,21 @@ div.tusin{
 
 #unchi{
     background-color: salmon;
+    margin-left: 15%;
+    margin-right:15%;
+    border-radius: 5px;
+    margin-bottom: 20%;
+
+    border: 1rem solid red;
+
 }
 
 #botan{
     color:seagreen;
+    padding:2%;
     font-size: 20px;
     cursor: pointer;
+
 }
 
 
@@ -319,4 +328,8 @@ div.tusin{
 
 #nobita{
     transition: 0.2s;
+}
+
+#unchiclub{
+    width:20%;
 }
