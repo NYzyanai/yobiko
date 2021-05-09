@@ -214,7 +214,7 @@ div.tusin{
 
 #nav ul li{
     list-style-type: none;
-    font-size: 40px;
+
 }
 
 #nav a{
@@ -240,7 +240,7 @@ div.tusin{
     width: 50px;
     height: 44px;
     cursor: pointer;
-    transition: 1s;
+    transition: .2s;
 }
 
 * {
@@ -263,19 +263,22 @@ div.tusin{
     width: 50px;
     height: 3px;
     background-color: #ffffff;
-    transition: 1s;
+    transition: 0s;
     border-radius: 4px;
+    transition:.2s;
 }
 
 #line1 {
     top: 0;
+    transform:-45deg;
   }
   #line2 {
     top: 20px;
+
   }
   #line3 {
     bottom: 0px;
-
+    transform:45deg;
 
 }
 
@@ -285,20 +288,22 @@ div.tusin{
 
 .line_1,.line_2,.line_3{
     background: red;
+    transition: .2s;
 }
   
 .line_1 {
-    
+    transform:rotate(-45deg);
     top:0;
 }
 
 .line_2 {
     top:20px;
+    opacity:0;
 }
 
 .line_3 {
     /*45度回転させる*/
-    
+    transform: rotate(45deg);
     bottom: 0;
 }
 
