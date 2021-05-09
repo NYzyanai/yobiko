@@ -301,3 +301,22 @@ div.tusin{
     
     bottom: 0;
 }
+
+#unchi{
+    background-color: salmon;
+}
+
+#botan{
+    color:seagreen;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+#nobitayo{
+    visibility: hidden;
+}
+
+#nobita{
+    transition: 0.2s;
+}

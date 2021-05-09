@@ -18,3 +18,22 @@ for (let i = 0; i < list.length; i++) {
 　　　　hamburger();
     });
 }
+
+
+
+document.getElementById("nobita").style.display ="none";
+
+document.getElementById("botan").addEventListener("click",function(){
+    clickBtn1();
+});
+function clickBtn1(){
+	const p1 = document.getElementById("nobita");
+
+	if(p1.style.display=="block"){
+		// noneで非表示
+		p1.style.display ="none";
+	}else{
+		// blockで表示
+		p1.style.display ="block";
+	}
+}
