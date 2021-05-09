@@ -339,10 +339,24 @@ div.tusin{
     width:20%;
 }
 
-.kangosimezasu{
+#kangosimezasu{
     position:sticky;
-    bottom:0;
+    bottom:-10vh;
     transition:.5s;
     color:rgba(255, 255, 255, 0.555);
     background-color: tomato;
+    opacity:1;
+    height:10vh;
+}
+
+.hover_up{
+    position:sticky;
+    transition: .5s;
+    opacity:1;
+    transform: translateY(-100%);
+    
+}
+
+.elese{
+    transform: translateY(+200%);
 }

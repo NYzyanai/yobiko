@@ -37,3 +37,27 @@ function clickBtn1(){
 		p1.style.display ="block";
 	}
 }
+
+var start_pos=100;
+
+function kangosibunner(){
+    const kangosi=document.getElementById("kangosimezasu");
+}
+document.addEventListener('scroll',()=>{
+    var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    var current_pos =scrollTop;
+  
+    if (current_pos > start_pos) {
+      //down
+           
+      document.getElementById("kangosimezasu").classList.add('hover_up');
+    }else{
+      //up
+      document.getElementById("kangosimezasu").classList.remove('hover_up');   
+
+      
+  
+    }
+});
+
+
