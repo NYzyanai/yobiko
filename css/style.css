@@ -214,7 +214,7 @@ div.tusin{
 
 #nav ul li{
     list-style-type: none;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 #nav a{
@@ -288,16 +288,16 @@ div.tusin{
 }
   
 .line_1 {
-    transform:rotate(-45deg);
+    
     top:0;
 }
 
 .line_2 {
-    opacity: 0;
+    top:20px;
 }
 
 .line_3 {
     /*45度回転させる*/
-    transform: rotate(45deg);
+    
     bottom: 0;
 }
