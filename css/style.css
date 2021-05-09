@@ -338,3 +338,11 @@ div.tusin{
 #unchiclub{
     width:20%;
 }
+
+.kangosimezasu{
+    position:sticky;
+    bottom:0;
+    transition:.5s;
+    color:rgba(255, 255, 255, 0.555);
+    background-color: tomato;
+}
